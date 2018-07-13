@@ -4,6 +4,7 @@ By Samuel Snyder
 Should be fairly straightforward setup. 
 
 -Download Sam's Site to your desktop.
+
 -Open html in preffered browser.
 
 
