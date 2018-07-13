@@ -1,0 +1,115 @@
+@media screen and (max-width: 600px){
+  .header_title {
+    margin-bottom: 10px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .featured {
+    width: 50%;
+    align-self: center;
+
+  }
+  .feat2 {
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+}
+/*I use a border at this breakpoint to organize the header*/
+@media screen and (min-width: 601px) {
+  .featured {
+    width: 30%;
+    padding: 10px;
+  }
+  .feat2 {
+    width: 20%;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .feat3 {
+    margin-top: 20px;
+  }
+  .header_inner {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+  }
+  .box {
+    width: 33.333%;
+    border: 1px solid transparent;
+  }
+  .box1 {
+    width: 20%
+  }
+  .logo {
+    margin-bottom: 5px;
+  }
+  .box2 {
+    width: 60%;
+  }
+  .box3 {
+    width: 20%;
+  }
+  .header_sub {
+    margin-top: 25px;
+  }
+}
+/*This breakpointmakes sure the logo isn't too big*/
+@media screen and (max-width: 610px) {
+  .logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+  .header_title {
+    margin-left: 0;
+  }
+}
+/*Align header to right*/
+@media screen and (min-width: 700px) {
+  .header {
+    height: 150px;
+  }
+  .header_inner {
+    height: 150px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .logo {
+    margin-left: 10em;
+    margin-top: 40px;
+  }
+  .box2 {
+    height: 33.333%;
+    text-align: right
+  }
+  .header_title {
+    margin: 0;
+  }
+  .box3 {
+    width: 33.33%;
+  }
+  .header_sub {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
+/*Adding margins and organize header*/
+@media screen and (min-width: 850px) {
+  main, .header_inner, .container {
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .box {
+    border: none;
+  }
+  .logo {
+    margin-left: 28em;
+  }
+  .box1 {
+    width: 60%
+  }
+  .box2 {
+    width: 40%;
+  }
+}
